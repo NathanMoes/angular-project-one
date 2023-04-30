@@ -6,6 +6,7 @@ import { ShoppingListComponent } from './shopping-list/shopping-list.component';
 import { RecipeBookComponent } from './recipe-book/recipe-book.component';
 import { HeaderComponent } from './header/header.component';
 import { RecipeListComponent } from './recipe-book/recipe-list/recipe-list.component';
+import { RecipeDetailComponent } from './recipe-book/recipe-detail/recipe-detail.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { RecipeListComponent } from './recipe-book/recipe-list/recipe-list.compo
     RecipeBookComponent,
     HeaderComponent,
     RecipeListComponent,
+    RecipeDetailComponent,
   ],
   imports: [BrowserModule],
   providers: [],
