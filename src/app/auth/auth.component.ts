@@ -48,4 +48,8 @@ export class AuthComponent {
 
     authForm.reset();
   }
+
+  onHandelError() {
+    this.errorMsg = null;
+  }
 }
