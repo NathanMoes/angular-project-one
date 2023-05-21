@@ -1,10 +1,9 @@
 import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Injectable } from '@angular/core';
-import apiKey from 'config';
+import apiKey from '../environments/environment';
 import { catchError, tap } from 'rxjs/operators';
-import { BehaviorSubject, Subject, throwError } from 'rxjs';
+import { BehaviorSubject, throwError } from 'rxjs';
 import { User } from './user.model';
-import { reduce } from 'rxjs-compat/operator/reduce';
 import { Router } from '@angular/router';
 
 export interface AuthResData {
