@@ -7,7 +7,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { RecipeService } from './recipe-book/recipe.service';
 import { HTTP_INTERCEPTORS, HttpClientModule } from '@angular/common/http';
 import { AuthInterceptorService } from './auth/auth-interceptor.service';
-import { RecipesModule } from './recipe-book/recipes.module';
 import { ShoppingListModule } from './shopping-list/shopping-list.module';
 import { SharedModule } from './shared/shared.module';
 import { AuthModule } from './auth/auth.module';
@@ -18,7 +17,6 @@ import { AuthModule } from './auth/auth.module';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    RecipesModule,
     ShoppingListModule,
     SharedModule,
     AuthModule,
